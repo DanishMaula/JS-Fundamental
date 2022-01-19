@@ -1,13 +1,8 @@
+//Const Block Scope
 
-// Closure
-function kucing(nama1, kelas1){
-    var b = 'Nama:' + nama1 + "\nKelas: " + kelas1
-    return function(){
-        console.log(b)
-    
-
-    }
+const nama = "Danish"
+function nama1(){
+    console.log(nama)
+    const dajang = 'ok'
 }
-
-var t = kucing(' Danish Maula Hasbi', 'X RPL B')
-t()
+nama1()
