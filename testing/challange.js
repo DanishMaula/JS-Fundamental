@@ -3,10 +3,10 @@ let b = true
 var c  
 let d = null
 
-console.log(typeof a)
-console.log(typeof b)
-console.log(typeof c)
-console.log(typeof d)
+console.log('ini tipe data', typeof a)
+console.log('ini tipe data',typeof b)
+console.log('ini tipe data',typeof c)
+console.log('ini tipe data',typeof d)
 
 let text1 = 'Hello'
 for (let i = 0; i<text1.length; i++)
